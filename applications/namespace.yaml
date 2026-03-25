@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/SKR-2021/eks-argocd.git
     targetRevision: main
-    path: namespace # The directory path within the repository
+    path: namespaces # The directory path within the repository
   destination:
     server: https://kubernetes.default.svc # Current cluster
     namespace: argocd 
